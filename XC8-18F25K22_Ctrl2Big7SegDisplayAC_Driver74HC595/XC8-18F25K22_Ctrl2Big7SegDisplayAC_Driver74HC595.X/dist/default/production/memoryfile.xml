@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production\XC8-18F25K22_Ctrl2Big7SegDisplayAC_Driver74HC595.X.production.hex">
+    <memory name="program">
+      <units>bytes</units>
+      <length>32768</length>
+      <used>1070</used>
+      <free>31698</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>1536</length>
+      <used>40</used>
+      <free>1496</free>
+    </memory>
+  </executable>
+</project>

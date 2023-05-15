@@ -1,0 +1,206 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F25K22 ]
+[d frameptr 4065 ]
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"30 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_Ctrl2Big7SegDisplayAC_Driver74HC595.X\Display7seg_74HC595.c
+[v _DISPLAY_Set DISPLAY_Set `(v  1 e 1 0 ]
+"54
+[v _DISPLAY_Reset DISPLAY_Reset `(v  1 e 1 0 ]
+"66
+[v _DISPLAY_Write DISPLAY_Write `(v  1 e 1 0 ]
+"95
+[v _DISPLAY_Update DISPLAY_Update `(v  1 e 1 0 ]
+"119
+[v _DRIVER_74HC595_ShiftOut DRIVER_74HC595_ShiftOut `(v  1 e 1 0 ]
+"22 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_Ctrl2Big7SegDisplayAC_Driver74HC595.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"19 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_Ctrl2Big7SegDisplayAC_Driver74HC595.X\mcu.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"32
+[v _SYSTEM_Process SYSTEM_Process `(v  1 e 1 0 ]
+"64
+[v _MCU_Initialize MCU_Initialize `(v  1 e 1 0 ]
+"87
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"47 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_Ctrl2Big7SegDisplayAC_Driver74HC595.X/Display7seg_74HC595.h
+[v _digits digits `[17]uc  1 e 17 0 ]
+"77
+[v _display_values display_values `[6]uc  1 e 6 0 ]
+"53 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18F-K_DFP/1.5.114/xc8\pic\include\proc\pic18f25k22.h
+[v _ANSELA ANSELA `VEuc  1 e 1 @3896 ]
+"98
+[v _ANSELB ANSELB `VEuc  1 e 1 @3897 ]
+"148
+[v _ANSELC ANSELC `VEuc  1 e 1 @3898 ]
+"6466
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"6839
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+[s S33 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"7384
+[s S42 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S51 . 1 `S33 1 . 1 0 `S42 1 . 1 0 ]
+[v _LATBbits LATBbits `VES51  1 e 1 @3978 ]
+"7803
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"8025
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S139 . 1 `uc 1 SCS 1 0 :2:0 
+`uc 1 HFIOFS 1 0 :1:2 
+`uc 1 OSTS 1 0 :1:3 
+`uc 1 IRCF 1 0 :3:4 
+`uc 1 IDLEN 1 0 :1:7 
+]
+"15239
+[s S145 . 1 `uc 1 SCS0 1 0 :1:0 
+`uc 1 SCS1 1 0 :1:1 
+`uc 1 IOFS 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IRCF0 1 0 :1:4 
+`uc 1 IRCF1 1 0 :1:5 
+`uc 1 IRCF2 1 0 :1:6 
+]
+[u S153 . 1 `S139 1 . 1 0 `S145 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES153  1 e 1 @4051 ]
+"22 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_Ctrl2Big7SegDisplayAC_Driver74HC595.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"27
+} 0
+"32 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_Ctrl2Big7SegDisplayAC_Driver74HC595.X\mcu.c
+[v _SYSTEM_Process SYSTEM_Process `(v  1 e 1 0 ]
+{
+"50
+[v SYSTEM_Process@i i `uc  1 a 1 15 ]
+"54
+} 0
+"66 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_Ctrl2Big7SegDisplayAC_Driver74HC595.X\Display7seg_74HC595.c
+[v _DISPLAY_Write DISPLAY_Write `(v  1 e 1 0 ]
+{
+[v DISPLAY_Write@num num `uc  1 a 1 wreg ]
+"68
+[v DISPLAY_Write@digit2 digit2 `uc  1 a 1 11 ]
+"67
+[v DISPLAY_Write@digit1 digit1 `uc  1 a 1 10 ]
+"66
+[v DISPLAY_Write@num num `uc  1 a 1 wreg ]
+[v DISPLAY_Write@num num `uc  1 a 1 12 ]
+"85
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 0 ]
+[v ___awmod@divisor divisor `i  1 p 2 2 ]
+"34
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"54 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_Ctrl2Big7SegDisplayAC_Driver74HC595.X\Display7seg_74HC595.c
+[v _DISPLAY_Reset DISPLAY_Reset `(v  1 e 1 0 ]
+{
+"56
+} 0
+"30
+[v _DISPLAY_Set DISPLAY_Set `(v  1 e 1 0 ]
+{
+[v DISPLAY_Set@D1 D1 `uc  1 a 1 wreg ]
+[v DISPLAY_Set@D1 D1 `uc  1 a 1 wreg ]
+[v DISPLAY_Set@D2 D2 `uc  1 p 1 6 ]
+[v DISPLAY_Set@D1 D1 `uc  1 a 1 9 ]
+"44
+} 0
+"95
+[v _DISPLAY_Update DISPLAY_Update `(v  1 e 1 0 ]
+{
+"97
+[v DISPLAY_Update@i i `c  1 a 1 5 ]
+"109
+} 0
+"119
+[v _DRIVER_74HC595_ShiftOut DRIVER_74HC595_ShiftOut `(v  1 e 1 0 ]
+{
+[v DRIVER_74HC595_ShiftOut@data data `uc  1 a 1 wreg ]
+"121
+[v DRIVER_74HC595_ShiftOut@i i `uc  1 a 1 4 ]
+"119
+[v DRIVER_74HC595_ShiftOut@data data `uc  1 a 1 wreg ]
+"121
+[v DRIVER_74HC595_ShiftOut@data data `uc  1 a 1 3 ]
+"132
+} 0
+"19 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_Ctrl2Big7SegDisplayAC_Driver74HC595.X\mcu.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"22
+} 0
+"87
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"90
+} 0
+"64
+[v _MCU_Initialize MCU_Initialize `(v  1 e 1 0 ]
+{
+"77
+} 0
