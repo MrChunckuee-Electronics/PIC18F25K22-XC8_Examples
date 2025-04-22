@@ -1,9 +1,20 @@
-/*
- * File:   main.c
- * Author: mrchu_000
+/*******************************************************************************
  *
- * Created on 10 de mayo de 2020, 12:36 AM
- */
+ *      Control de servomotores con el modulo PCA9685
+ *
+ *******************************************************************************
+ * FileName:        main.c
+ * Processor:       PIC18F25K22
+ * Complier:        XC8 v2.36
+ * Author:          Pedro Sánchez (MrChunckuee)
+ * Blog:            http://mrchunckuee.blogspot.com/
+ * Email:           mrchunckuee.electronics@gmail.com
+ * Description:     Control de servomotores Futaba con el modulo PCA9685
+ *
+ *******************************************************************************
+ * Rev.         Date            Comment
+ *   v1.0.0     10/04/2025      - Creación y prueba de funcionamiento 
+ ******************************************************************************/
 
 #include <xc.h>
 #include "FUSES_Config.h"
@@ -15,8 +26,8 @@
 uint16_t duty;
 
 //Servo VIGOR VS-2
-//uint16_t maxPWM_Duty = 505; // ancho de pulso en cuentas para la pocicion 180�
-//uint16_t minPWM_Duty = 130; // ancho de pulso en cuentas para pocicion 0�
+//uint16_t maxPWM_Duty = 505; // ancho de pulso en cuentas para la pocicion 180°
+//uint16_t minPWM_Duty = 130; // ancho de pulso en cuentas para pocicion 0°
 
 //Servo FUTABA S3003
 uint16_t maxPWM_Duty = 500;
