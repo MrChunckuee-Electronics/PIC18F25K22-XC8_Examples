@@ -15,7 +15,6 @@
  * Rev.         Date            Comment
  *   v1.0.0     10/04/2025      - Creación y prueba de funcionamiento 
  ******************************************************************************/
-
 #include <xc.h>
 #include "FUSES_Config.h"
 #include "i2c.h"
