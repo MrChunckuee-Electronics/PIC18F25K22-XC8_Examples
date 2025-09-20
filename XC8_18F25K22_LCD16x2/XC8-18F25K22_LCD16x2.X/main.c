@@ -5,7 +5,7 @@
  *******************************************************************************
  * FileName:        main.c
  * Processor:       PIC18F25K22
- * Complier:        XC8 v1.42
+ * Complier:        XC8 v2.36
  * Author:          Pedro Sánchez (MrChunckuee)
  * Blog:            http://mrchunckuee.blogspot.com/
  * Email:           mrchunckuee.psr@gmail.com
@@ -14,7 +14,9 @@
  *                  cabecera de lcd.c esta el enlace a su GitHub
  *******************************************************************************
  * Rev.         Date            Comment
- *   v1.00      03/02/2017      Creación del ejemplo
+ *  v1.0.0      03/02/2017      Creación del ejemplo
+ *  v1.0.1      18/09/2025      Se recompilo demo para XC8v2.36, se cambio de la 
+ *                              forma de procesar las interrupciones (segun el manual).
  ******************************************************************************/
 
 #include <stdio.h>
@@ -35,7 +37,7 @@ void MCU_Init(void);
 void MCU_Delayms(unsigned int time);
 void RTCC_Init(void);
 
-void interrupt high_priority ISR(void){
+void __interrupt() INTERRUPT_InterruptManagerHigh (void){
     if(INTCONbits.TMR0IF){
         ++RTCC_Count;
         if (RTCC_Count >= 1000){
