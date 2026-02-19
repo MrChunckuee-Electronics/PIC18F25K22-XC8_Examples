@@ -48,4 +48,3 @@ void UART1_PutStr(const char* dataStr){
 		dataStr++;
 	}
 }
-
