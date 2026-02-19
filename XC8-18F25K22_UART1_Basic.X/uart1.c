@@ -15,25 +15,25 @@ void UART1_Initialize(long baudRate){
     ANSELCbits.ANSC6 = 0; // Digital
     ANSELCbits.ANSC7 = 0; // Digital
 
-    // Cálculo de Baud Rate (Asíncrono, Alta Velocidad)
+    // CÃ¡lculo de Baud Rate (AsÃ­ncrono, Baja Velocidad)
     SPBRG = ((_XTAL_FREQ / 64) / baudRate) - 1;
     TXSTAbits.BRGH = 0; // Baja velocidad
-    TXSTAbits.SYNC = 0; // Modo asíncrono
+    TXSTAbits.SYNC = 0; // Modo asÃ­ncrono
     RCSTAbits.SPEN = 1; // Habilitar puerto serial
 
-    // Habilitar transmisión y recepción
-    TXSTAbits.TXEN = 1; // Habilitar transmisión
-    RCSTAbits.CREN = 1; // Habilitar recepción
+    // Habilitar transmisiÃ³n y recepciÃ³n
+    TXSTAbits.TXEN = 1; // Habilitar transmisiÃ³n
+    RCSTAbits.CREN = 1; // Habilitar recepciÃ³n
 }
 
 void UART1_Write(char data){
-    while(!TXSTAbits.TRMT); // Esperar a que el buffer esté vacío
+    while(!TXSTAbits.TRMT); // Esperar a que el buffer estÃ© vacÃ­o
     TXREG = data; // Enviar dato
 }
 
 char UART1_Read(void){
     if (RCSTAbits.OERR) { // Si hay error de desbordamiento
-        RCSTAbits.CREN = 0; // Resetear recepción
+        RCSTAbits.CREN = 0; // Resetear recepciÃ³n
         RCSTAbits.CREN = 1;
     }
     while(!PIR1bits.RCIF); // Esperar dato
