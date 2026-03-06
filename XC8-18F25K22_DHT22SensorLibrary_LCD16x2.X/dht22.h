@@ -25,8 +25,8 @@ extern "C" {
     #define DHT22_Sensor_SetLow()           do { DHT22_Sensor_LAT = 0; } while(0)
 
     typedef enum{
-        DHT22_ERROR_TIMEOUT = 0,    // El sensor no responde o se desconectó
-        DHT22_OK = 1,               // Lectura exitosa
+        DHT22_OK = 0,               // Lectura exitosa
+        DHT22_ERROR_TIMEOUT = 1,    // El sensor no responde o se desconectó
         DHT22_ERROR_CHECKSUM = 2,   // Datos corruptos por ruido
         DHT22_ERROR_RANGE = 3       // Valores fuera de límites (-40 a 80 C)
     }DHT22_Status_t;
