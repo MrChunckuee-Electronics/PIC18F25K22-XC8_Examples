@@ -37,7 +37,7 @@ void main(void){
             LCD_SetCursor(0, 0);
             LCD_puts("Temp: ");
             LCD_puts((char*)miDHT_Sensor.str_temperature); 
-            LCD_putc(0xDF); // Caracter de grado '°'
+            LCD_putc(0xDF); // Caracter de grado 'Â°'
             LCD_puts("C");
             
             LCD_SetCursor(1, 0);
@@ -78,7 +78,7 @@ void MCU_Initialize(void){
     
     TRISA = 0x00;
     TRISB = 0x00;
-    TRISC = 0x80; // RC7 como entrada (RX), RC6 como salida (TX)
+    TRISC = 0x80;
     
     LATA = 0x00;
     LATB = 0x00;
