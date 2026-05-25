@@ -1,0 +1,669 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F25K22 ]
+[d frameptr 4065 ]
+"40 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_RTCLib_BQ32000Test.X\RTCLib.c
+[e E5744 . `uc
+RTC_MODEL_BQ32000 0
+RTC_MODEL_DS1307 1
+RTC_MODEL_DS3231 2
+]
+"110 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_RTCLib_BQ32000Test.X\main.c
+[e E6700 . `uc
+RTC_MODEL_BQ32000 0
+RTC_MODEL_DS1307 1
+RTC_MODEL_DS3231 2
+]
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"1 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"72 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+"287
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+"1390
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\isdigit.c
+[v _isdigit isdigit `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\isspace.c
+[v _isspace isspace `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"53 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_RTCLib_BQ32000Test.X\i2c2.c
+[v _I2C2_Initialize I2C2_Initialize `(v  1 e 1 0 ]
+"75
+[v _I2C2_Start I2C2_Start `(v  1 e 1 0 ]
+"103
+[v _I2C2_Stop I2C2_Stop `(v  1 e 1 0 ]
+"117
+[v _I2C2_Send_ACK I2C2_Send_ACK `(v  1 e 1 0 ]
+"132
+[v _I2C2_Send_NACK I2C2_Send_NACK `(v  1 e 1 0 ]
+"147
+[v _I2C2_Send I2C2_Send `(uc  1 e 1 0 ]
+"162
+[v _I2C2_Read I2C2_Read `(uc  1 e 1 0 ]
+"39 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_RTCLib_BQ32000Test.X\LCDNokia5110.c
+[v _LCDNokia5110_Initialize LCDNokia5110_Initialize `(v  1 e 1 0 ]
+"73
+[v _LCDNokia5110_Write LCDNokia5110_Write `(v  1 e 1 0 ]
+"94
+[v _LCDNokia5110_WriteSPI LCDNokia5110_WriteSPI `(v  1 e 1 0 ]
+"114
+[v _LCDNokia5110_Clear LCDNokia5110_Clear `(v  1 e 1 0 ]
+"129
+[v _LCDNokia5110_GotoXY LCDNokia5110_GotoXY `(v  1 e 1 0 ]
+"145
+[v _LCDNokia5110_putC LCDNokia5110_putC `(v  1 e 1 0 ]
+"161
+[v _LCDNokia5110_putStr LCDNokia5110_putStr `(v  1 e 1 0 ]
+"25 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_RTCLib_BQ32000Test.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"64
+[v _MCU_Initialize MCU_Initialize `(v  1 e 1 0 ]
+"82
+[v _DISPLAY_Initialize DISPLAY_Initialize `(v  1 e 1 0 ]
+"109
+[v _RELOJ_Initialize RELOJ_Initialize `(v  1 e 1 0 ]
+"53 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_RTCLib_BQ32000Test.X\RTCLib.c
+[v _RTC_Initialize RTC_Initialize `(v  1 e 1 0 ]
+"71
+[v _RTC_StartClock RTC_StartClock `(v  1 e 1 0 ]
+"104
+[v _RTC_WaitReady RTC_WaitReady `(a  1 s 1 RTC_WaitReady ]
+"130
+[v _RTC_WriteByte RTC_WriteByte `(v  1 e 1 0 ]
+"146
+[v _RTC_ReadByte RTC_ReadByte `(uc  1 e 1 0 ]
+"171
+[v _RTC_WriteBytes RTC_WriteBytes `(v  1 e 1 0 ]
+"192
+[v _RTC_ReadBytes RTC_ReadBytes `(v  1 e 1 0 ]
+"218
+[v _DEC_to_BCD DEC_to_BCD `T(uc  1 e 1 0 ]
+"232
+[v _BCD_to_DEC BCD_to_DEC `T(uc  1 e 1 0 ]
+"278
+[v _RTC_GetTime RTC_GetTime `(a  1 e 1 0 ]
+"335
+[v _RTC_GetDate RTC_GetDate `(a  1 e 1 0 ]
+"18 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_RTCLib_BQ32000Test.X/font_pattern.h
+[v _FONT_NORMAL FONT_NORMAL `C[96][5]uc  1 e 480 0 ]
+"53 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18F-K_DFP/1.5.114/xc8\pic\include\proc\pic18f25k22.h
+[v _ANSELA ANSELA `VEuc  1 e 1 @3896 ]
+"98
+[v _ANSELB ANSELB `VEuc  1 e 1 @3897 ]
+"148
+[v _ANSELC ANSELC `VEuc  1 e 1 @3898 ]
+[s S186 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"3463
+[s S195 . 1 `uc 1 SEN2 1 0 :1:0 
+`uc 1 ADMSK12 1 0 :1:1 
+`uc 1 ADMSK22 1 0 :1:2 
+`uc 1 ADMSK32 1 0 :1:3 
+`uc 1 ACKEN2 1 0 :1:4 
+`uc 1 ACKDT2 1 0 :1:5 
+`uc 1 ACKSTAT2 1 0 :1:6 
+`uc 1 GCEN2 1 0 :1:7 
+]
+[s S204 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN2 1 0 :1:1 
+`uc 1 PEN2 1 0 :1:2 
+`uc 1 RCEN2 1 0 :1:3 
+`uc 1 ADMSK42 1 0 :1:4 
+`uc 1 ADMSK52 1 0 :1:5 
+]
+[u S211 . 1 `S186 1 . 1 0 `S195 1 . 1 0 `S204 1 . 1 0 ]
+[v _SSP2CON2bits SSP2CON2bits `VES211  1 e 1 @3947 ]
+"3573
+[v _SSP2CON1 SSP2CON1 `VEuc  1 e 1 @3948 ]
+"3693
+[v _SSP2STAT SSP2STAT `VEuc  1 e 1 @3949 ]
+"4093
+[v _SSP2ADD SSP2ADD `VEuc  1 e 1 @3950 ]
+"4163
+[v _SSP2BUF SSP2BUF `VEuc  1 e 1 @3951 ]
+"6466
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"7245
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"7357
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"7469
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"7581
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"7803
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S143 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"7835
+[s S152 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S161 . 1 `S143 1 . 1 0 `S152 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES161  1 e 1 @3987 ]
+"8025
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S241 . 1 `uc 1 TMR1GIF 1 0 :1:0 
+`uc 1 TMR3GIF 1 0 :1:1 
+`uc 1 TMR5GIF 1 0 :1:2 
+`uc 1 CTMUIF 1 0 :1:3 
+`uc 1 TX2IF 1 0 :1:4 
+`uc 1 RC2IF 1 0 :1:5 
+`uc 1 BCL2IF 1 0 :1:6 
+`uc 1 SSP2IF 1 0 :1:7 
+]
+"9240
+[s S250 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIF 1 0 :1:4 
+]
+[u S255 . 1 `S241 1 . 1 0 `S250 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES255  1 e 1 @4004 ]
+[s S362 . 1 `uc 1 SCS 1 0 :2:0 
+`uc 1 HFIOFS 1 0 :1:2 
+`uc 1 OSTS 1 0 :1:3 
+`uc 1 IRCF 1 0 :3:4 
+`uc 1 IDLEN 1 0 :1:7 
+]
+"15239
+[s S368 . 1 `uc 1 SCS0 1 0 :1:0 
+`uc 1 SCS1 1 0 :1:1 
+`uc 1 IOFS 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IRCF0 1 0 :1:4 
+`uc 1 IRCF1 1 0 :1:5 
+`uc 1 IRCF2 1 0 :1:6 
+]
+[u S376 . 1 `S362 1 . 1 0 `S368 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES376  1 e 1 @4051 ]
+"55 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\doprnt.c
+[v _flags flags `i  1 s 2 flags ]
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"66
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"69
+[v _nout nout `i  1 s 2 nout ]
+[s S394 . 9 `*.39VEuc 1 TRIS 2 0 `*.39VEuc 1 PORT 2 2 `uc 1 RST 1 4 `uc 1 CE 1 5 `uc 1 DC 1 6 `uc 1 DIN 1 7 `uc 1 CLK 1 8 ]
+"25 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_RTCLib_BQ32000Test.X\LCDNokia5110.c
+[v _Nokia5110 Nokia5110 `S394  1 e 9 0 ]
+"40 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_RTCLib_BQ32000Test.X\RTCLib.c
+[v __selectedModel _selectedModel `E5744  1 s 1 _selectedModel ]
+"41
+[v __rtcI2cAddress _rtcI2cAddress `uc  1 s 1 _rtcI2cAddress ]
+"25 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_RTCLib_BQ32000Test.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+[s S73 . 5 `us 1 year 2 0 `uc 1 month 1 2 `uc 1 day 1 3 `uc 1 weekday 1 4 ]
+"36
+[v main@fechaActual fechaActual `S73  1 a 5 47 ]
+[s S68 . 4 `uc 1 hours 1 0 `uc 1 minutes 1 1 `uc 1 seconds 1 2 `uc 1 timeMode 1 3 ]
+"35
+[v main@horaActual horaActual `S68  1 a 4 52 ]
+"32
+[v main@txtFecha txtFecha `[12]uc  1 a 12 35 ]
+"31
+[v main@txtHora txtHora `[12]uc  1 a 12 23 ]
+"62
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[u S989 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+"13
+[s S992 _IO_FILE 11 `S989 1 . 3 0 `i 1 count 2 3 `[2]uc 1 ungetbuf 2 5 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v sprintf@f f `S992  1 a 11 12 ]
+"12
+[v sprintf@ap ap `[1]*.39v  1 a 2 10 ]
+"9
+[v sprintf@s s `*.39uc  1 p 2 0 ]
+[v sprintf@fmt fmt `*.25Cuc  1 p 2 2 ]
+"23
+} 0
+"1390 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1393
+[v vfprintf@cfmt cfmt `*.25uc  1 a 2 89 ]
+[s S1024 _IO_FILE 0 ]
+"1390
+[v vfprintf@fp fp `*.39S1024  1 p 2 83 ]
+[v vfprintf@fmt fmt `*.25Cuc  1 p 2 85 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 87 ]
+"1404
+} 0
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+{
+"696
+[v vfpfcnvrt@ll ll `o  1 a 8 73 ]
+"695
+[v vfpfcnvrt@done done `i  1 a 2 81 ]
+[s S1024 _IO_FILE 0 ]
+"692
+[v vfpfcnvrt@fp fp `*.39S1024  1 p 2 63 ]
+[v vfpfcnvrt@fmt fmt `*.39*.25uc  1 p 2 65 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 67 ]
+"1387
+} 0
+"287
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+{
+"290
+[v dtoa@n n `o  1 a 8 53 ]
+"289
+[v dtoa@i i `i  1 a 2 61 ]
+[v dtoa@s s `i  1 a 2 51 ]
+[v dtoa@w w `i  1 a 2 49 ]
+[v dtoa@p p `i  1 a 2 47 ]
+[s S1024 _IO_FILE 0 ]
+"287
+[v dtoa@fp fp `*.39S1024  1 p 2 27 ]
+[v dtoa@d d `o  1 p 8 29 ]
+"328
+} 0
+"72
+[v _pad pad `(i  1 s 2 pad ]
+{
+"74
+[v pad@w w `i  1 a 2 25 ]
+[v pad@i i `i  1 a 2 23 ]
+[s S1024 _IO_FILE 0 ]
+"72
+[v pad@fp fp `*.39S1024  1 p 2 16 ]
+[v pad@buf buf `*.39uc  1 p 2 18 ]
+[v pad@p p `i  1 p 2 20 ]
+"95
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.39Cuc  1 a 2 2 ]
+"5
+[v strlen@s s `*.39Cuc  1 p 2 0 ]
+"12
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v fputs@i i `i  1 a 2 14 ]
+"10
+[v fputs@c c `uc  1 a 1 13 ]
+"8
+[v fputs@s s `*.39Cuc  1 p 2 9 ]
+[u S989 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S992 _IO_FILE 11 `S989 1 . 3 0 `i 1 count 2 3 `[2]uc 1 ungetbuf 2 5 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputs@fp fp `*.39S992  1 p 2 11 ]
+"19
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 0 ]
+[u S989 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S992 _IO_FILE 11 `S989 1 . 3 0 `i 1 count 2 3 `[2]uc 1 ungetbuf 2 5 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputc@fp fp `*.39S992  1 p 2 2 ]
+"24
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+"9
+} 0
+"1 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 18 ]
+"4
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+{
+"12
+[v ___aomod@sign sign `uc  1 a 1 17 ]
+[v ___aomod@counter counter `uc  1 a 1 16 ]
+"9
+[v ___aomod@dividend dividend `o  1 p 8 0 ]
+[v ___aomod@divisor divisor `o  1 p 8 8 ]
+"36
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+{
+"12
+[v ___aodiv@quotient quotient `o  1 a 8 18 ]
+"13
+[v ___aodiv@sign sign `uc  1 a 1 17 ]
+[v ___aodiv@counter counter `uc  1 a 1 16 ]
+"9
+[v ___aodiv@dividend dividend `o  1 p 8 0 ]
+[v ___aodiv@divisor divisor `o  1 p 8 8 ]
+"43
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+{
+"6
+[v atoi@n n `i  1 a 2 15 ]
+[v atoi@neg neg `i  1 a 2 13 ]
+"4
+[v atoi@s s `*.25Cuc  1 p 2 7 ]
+"16
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\isspace.c
+[v _isspace isspace `(i  1 e 2 0 ]
+{
+[v isspace@c c `i  1 p 2 0 ]
+"8
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\isdigit.c
+[v _isdigit isdigit `(i  1 e 2 0 ]
+{
+[v isdigit@c c `i  1 p 2 0 ]
+"8
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"278 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_RTCLib_BQ32000Test.X\RTCLib.c
+[v _RTC_GetTime RTC_GetTime `(a  1 e 1 0 ]
+{
+"279
+[v RTC_GetTime@dataBuff dataBuff `[3]uc  1 a 3 18 ]
+[s S68 . 4 `uc 1 hours 1 0 `uc 1 minutes 1 1 `uc 1 seconds 1 2 `uc 1 timeMode 1 3 ]
+"278
+[v RTC_GetTime@result result `*.39S68  1 p 2 15 ]
+"304
+} 0
+"335
+[v _RTC_GetDate RTC_GetDate `(a  1 e 1 0 ]
+{
+"336
+[v RTC_GetDate@dataBuff dataBuff `[4]uc  1 a 4 21 ]
+[s S73 . 5 `us 1 year 2 0 `uc 1 month 1 2 `uc 1 day 1 3 `uc 1 weekday 1 4 ]
+"335
+[v RTC_GetDate@result result `*.39S73  1 p 2 15 ]
+"352
+} 0
+"192
+[v _RTC_ReadBytes RTC_ReadBytes `(v  1 e 1 0 ]
+{
+[v RTC_ReadBytes@addr addr `uc  1 a 1 wreg ]
+"197
+[v RTC_ReadBytes@i i `uc  1 a 1 14 ]
+"192
+[v RTC_ReadBytes@addr addr `uc  1 a 1 wreg ]
+[v RTC_ReadBytes@data data `*.39uc  1 p 2 3 ]
+[v RTC_ReadBytes@len len `uc  1 p 1 5 ]
+[v RTC_ReadBytes@addr addr `uc  1 a 1 13 ]
+"207
+} 0
+"132 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_RTCLib_BQ32000Test.X\i2c2.c
+[v _I2C2_Send_NACK I2C2_Send_NACK `(v  1 e 1 0 ]
+{
+"137
+} 0
+"117
+[v _I2C2_Send_ACK I2C2_Send_ACK `(v  1 e 1 0 ]
+{
+"122
+} 0
+"232 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_RTCLib_BQ32000Test.X\RTCLib.c
+[v _BCD_to_DEC BCD_to_DEC `T(uc  1 e 1 0 ]
+{
+[v BCD_to_DEC@bcd bcd `uc  1 a 1 wreg ]
+[v BCD_to_DEC@bcd bcd `uc  1 a 1 wreg ]
+"235
+[v BCD_to_DEC@bcd bcd `uc  1 a 1 1 ]
+"236
+} 0
+"109 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_RTCLib_BQ32000Test.X\main.c
+[v _RELOJ_Initialize RELOJ_Initialize `(v  1 e 1 0 ]
+{
+"120
+} 0
+"53 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_RTCLib_BQ32000Test.X\RTCLib.c
+[v _RTC_Initialize RTC_Initialize `(v  1 e 1 0 ]
+{
+[v RTC_Initialize@model model `E5744  1 a 1 wreg ]
+[v RTC_Initialize@model model `E5744  1 a 1 wreg ]
+[v RTC_Initialize@i2cAddress i2cAddress `uc  1 p 1 6 ]
+[v RTC_Initialize@model model `E5744  1 a 1 7 ]
+"59
+} 0
+"71
+[v _RTC_StartClock RTC_StartClock `(v  1 e 1 0 ]
+{
+"72
+[v RTC_StartClock@tempReg tempReg `uc  1 a 1 5 ]
+"93
+} 0
+"130
+[v _RTC_WriteByte RTC_WriteByte `(v  1 e 1 0 ]
+{
+[v RTC_WriteByte@addr addr `uc  1 a 1 wreg ]
+[v RTC_WriteByte@addr addr `uc  1 a 1 wreg ]
+[v RTC_WriteByte@data data `uc  1 p 1 3 ]
+[v RTC_WriteByte@addr addr `uc  1 a 1 4 ]
+"136
+} 0
+"146
+[v _RTC_ReadByte RTC_ReadByte `(uc  1 e 1 0 ]
+{
+[v RTC_ReadByte@addr addr `uc  1 a 1 wreg ]
+"147
+[v RTC_ReadByte@data data `uc  1 a 1 4 ]
+"146
+[v RTC_ReadByte@addr addr `uc  1 a 1 wreg ]
+[v RTC_ReadByte@addr addr `uc  1 a 1 3 ]
+"158
+} 0
+"104
+[v _RTC_WaitReady RTC_WaitReady `(a  1 s 1 RTC_WaitReady ]
+{
+"105
+[v RTC_WaitReady@timeout timeout `us  1 a 2 1 ]
+"119
+} 0
+"103 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_RTCLib_BQ32000Test.X\i2c2.c
+[v _I2C2_Stop I2C2_Stop `(v  1 e 1 0 ]
+{
+"107
+} 0
+"75
+[v _I2C2_Start I2C2_Start `(v  1 e 1 0 ]
+{
+"79
+} 0
+"147
+[v _I2C2_Send I2C2_Send `(uc  1 e 1 0 ]
+{
+[v I2C2_Send@data data `uc  1 a 1 wreg ]
+[v I2C2_Send@data data `uc  1 a 1 wreg ]
+[v I2C2_Send@data data `uc  1 a 1 0 ]
+"152
+} 0
+"162
+[v _I2C2_Read I2C2_Read `(uc  1 e 1 0 ]
+{
+"167
+} 0
+"64 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_RTCLib_BQ32000Test.X\main.c
+[v _MCU_Initialize MCU_Initialize `(v  1 e 1 0 ]
+{
+"80
+} 0
+"53 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_RTCLib_BQ32000Test.X\i2c2.c
+[v _I2C2_Initialize I2C2_Initialize `(v  1 e 1 0 ]
+{
+[v I2C2_Initialize@fosc_hz fosc_hz `ul  1 p 4 13 ]
+[v I2C2_Initialize@i2c_speed_hz i2c_speed_hz `ul  1 p 4 17 ]
+"65
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"7
+[v ___lldiv@dividend dividend `ul  1 p 4 0 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 4 ]
+"30
+} 0
+"82 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_RTCLib_BQ32000Test.X\main.c
+[v _DISPLAY_Initialize DISPLAY_Initialize `(v  1 e 1 0 ]
+{
+[s S394 . 9 `*.39VEuc 1 TRIS 2 0 `*.39VEuc 1 PORT 2 2 `uc 1 RST 1 4 `uc 1 CE 1 5 `uc 1 DC 1 6 `uc 1 DIN 1 7 `uc 1 CLK 1 8 ]
+"84
+[v DISPLAY_Initialize@myLCD myLCD `S394  1 a 9 24 ]
+"82
+[v DISPLAY_Initialize@F6752 F6752 `S394  1 s 9 F6752 ]
+"106
+} 0
+"161 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K22_RTCLib_BQ32000Test.X\LCDNokia5110.c
+[v _LCDNokia5110_putStr LCDNokia5110_putStr `(v  1 e 1 0 ]
+{
+[v LCDNokia5110_putStr@dataStr dataStr `*.35uc  1 p 2 17 ]
+[v LCDNokia5110_putStr@x x `uc  1 p 1 19 ]
+[v LCDNokia5110_putStr@y y `uc  1 p 1 20 ]
+"165
+} 0
+"145
+[v _LCDNokia5110_putC LCDNokia5110_putC `(v  1 e 1 0 ]
+{
+[v LCDNokia5110_putC@data data `uc  1 a 1 wreg ]
+"147
+[v LCDNokia5110_putC@index index `i  1 a 2 15 ]
+"145
+[v LCDNokia5110_putC@data data `uc  1 a 1 wreg ]
+[v LCDNokia5110_putC@data data `uc  1 a 1 14 ]
+"151
+} 0
+"39
+[v _LCDNokia5110_Initialize LCDNokia5110_Initialize `(v  1 e 1 0 ]
+{
+[s S394 . 9 `*.39VEuc 1 TRIS 2 0 `*.39VEuc 1 PORT 2 2 `uc 1 RST 1 4 `uc 1 CE 1 5 `uc 1 DC 1 6 `uc 1 DIN 1 7 `uc 1 CLK 1 8 ]
+[v LCDNokia5110_Initialize@lcd lcd `S394  1 p 9 10 ]
+"60
+} 0
+"114
+[v _LCDNokia5110_Clear LCDNokia5110_Clear `(v  1 e 1 0 ]
+{
+"115
+[v LCDNokia5110_Clear@index index `i  1 a 2 12 ]
+"118
+} 0
+"129
+[v _LCDNokia5110_GotoXY LCDNokia5110_GotoXY `(v  1 e 1 0 ]
+{
+[v LCDNokia5110_GotoXY@x x `uc  1 a 1 wreg ]
+[v LCDNokia5110_GotoXY@x x `uc  1 a 1 wreg ]
+[v LCDNokia5110_GotoXY@y y `uc  1 p 1 10 ]
+[v LCDNokia5110_GotoXY@x x `uc  1 a 1 11 ]
+"132
+} 0
+"73
+[v _LCDNokia5110_Write LCDNokia5110_Write `(v  1 e 1 0 ]
+{
+[v LCDNokia5110_Write@mode mode `uc  1 a 1 wreg ]
+[v LCDNokia5110_Write@mode mode `uc  1 a 1 wreg ]
+[v LCDNokia5110_Write@data data `uc  1 p 1 5 ]
+[v LCDNokia5110_Write@mode mode `uc  1 a 1 9 ]
+"83
+} 0
+"94
+[v _LCDNokia5110_WriteSPI LCDNokia5110_WriteSPI `(v  1 e 1 0 ]
+{
+[v LCDNokia5110_WriteSPI@outData outData `uc  1 a 1 wreg ]
+"95
+[v LCDNokia5110_WriteSPI@i i `uc  1 a 1 4 ]
+"94
+[v LCDNokia5110_WriteSPI@outData outData `uc  1 a 1 wreg ]
+[v LCDNokia5110_WriteSPI@outData outData `uc  1 a 1 3 ]
+"104
+} 0
