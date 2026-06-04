@@ -1,0 +1,98 @@
+#----------------------------------------------------------------------
+# Autor: Pedro Sanchez Ramirez
+# Email: mrchunckuee.psr@gmail.com
+#----------------------------------------------------------------------
+
+#----------------------------------------------------------------------
+# Ignorar archivos de compilación XC8/C18
+**.err
+
+**/build/
+**/dist/
+**/debug/
+
+**/nbproject/private/
+
+**/*.o
+**/*.d
+**/*.su
+**/*.elf
+**/*.hex
+**/*.cof
+**/*.map
+**/*.hxl
+**/*.sym
+**/*.p1
+**/*.pre
+#----------------------------------------------------------------------
+
+
+#----------------------------------------------------------------------
+#Algunos proyectos incluyen simulacion en proteus
+#asi que ignoramos los siguientes archivos
+*.workspace
+*.pdsbak
+*.pdsprj
+#----------------------------------------------------------------------
+
+
+#----------------------------------------------------------------------
+# Ignore list for Eagle, a PCB layout tool
+
+# Backup files.
+*.s#?
+*.b#?
+*.l#?
+*.b$?
+*.s$?
+*.l$?
+
+# Eagle project file.
+# It contains a serial number and references to the file structure on your computer.
+# comment the following line if you want to have your project file included.
+#eagle.epf
+
+# Autorouter files
+#*.pro
+#*.job
+
+# CAM files
+#*.$$$
+#*.cmp
+#*.ly2
+#*.l15
+#*.sol
+#*.plc
+#*.stc
+#*.sts
+#*.crc
+#*.crs
+
+#*.dri
+#*.drl
+#*.gpi
+#*.pls
+#*.ger
+#*.xln
+
+#*.drd
+#*.drd.*
+
+#*.s#*
+#*.b#*
+
+#*.info
+
+#*.eps
+
+# file locks introduced since 7.x
+#*.lck
+#----------------------------------------------------------------------
+
+
+#----------------------------------------------------------------------
+# ignore files from OS
+**desktop.ini
+.DS_Store
+Thumbs.db
+#----------------------------------------------------------------------
