@@ -5,29 +5,25 @@
 
 #----------------------------------------------------------------------
 # Ignorar archivos de compilación XC8/C18
-*.err
+**.err
 
-#Ignorar archivos de la carpeta build
-#build/
+**/build/
+**/dist/
+**/debug/
 
-#Ignorar archivos de la carpeta dist
-#*.xml
-#*.cmf
-#*.elf
-# *.hex  #Descomentar para no cargar el archivo HEX
-#*.hxl
-#*.lst
-#*.map
-#*.mum
-#*.obj
-#*.rlf
-#*.sdb
-#*.cof
-#*.sym
-#*.o
-#*.d
-#*.i
-#*.p1
+**/nbproject/private/
+
+**/*.o
+**/*.d
+**/*.su
+**/*.elf
+**/*.hex
+**/*.cof
+**/*.map
+**/*.hxl
+**/*.sym
+**/*.p1
+**/*.pre
 #----------------------------------------------------------------------
 
 
@@ -95,6 +91,8 @@
 
 
 #----------------------------------------------------------------------
-# ignore files from Google Drive
-*desktop.ini
+# ignore files from OS
+**desktop.ini
+.DS_Store
+Thumbs.db
 #----------------------------------------------------------------------
