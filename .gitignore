@@ -1,10 +1,13 @@
-#----------------------------------------------------------------------
+# ==========================================================================
+# GITIGNORE
 # Autor: Pedro Sanchez Ramirez
-# Email: mrchunckuee.psr@gmail.com
-#----------------------------------------------------------------------
+# ==========================================================================
 
-#----------------------------------------------------------------------
-# Ignorar archivos de compilación XC8/C18
+
+# ==========================================================================
+# .gitignore para MPLAB X - XC8/C18
+# ==========================================================================
+
 **.err
 
 **/build/
@@ -24,15 +27,51 @@
 **/*.sym
 **/*.p1
 **/*.pre
-#----------------------------------------------------------------------
+
+# ==========================================================================
+# .gitignore para KiCad
+# ==========================================================================
+# Archivos temporales y respaldos
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+*-cache*
+*_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+
+# Preferencias locales del usuario
+# Guarda ajustes específicos de tu pantalla o sesión
+*.kicad_prl
+
+# Archivos de Automatización y Netlists
+*.net
+*.dsn
+*.ses
+*.cmp
+
+# Reportes y Archivos de Fabricación
+# Descomentar lo que no se desea guardar en el control de versiones.
+# *.gbr
+# *.drl
+# *.rpt
+# *.xml
+# *.csv
+# *.tsv
+# fp-info-cache
+
 
 
 #----------------------------------------------------------------------
 #Algunos proyectos incluyen simulacion en proteus
 #asi que ignoramos los siguientes archivos
-*.workspace
-*.pdsbak
-*.pdsprj
+**.workspace
+**.pdsbak
+**.pdsprj
 #----------------------------------------------------------------------
 
 
@@ -40,12 +79,12 @@
 # Ignore list for Eagle, a PCB layout tool
 
 # Backup files.
-*.s#?
-*.b#?
-*.l#?
-*.b$?
-*.s$?
-*.l$?
+**.s#?
+**.b#?
+**.l#?
+**.b$?
+**.s$?
+**.l$?
 
 # Eagle project file.
 # It contains a serial number and references to the file structure on your computer.
@@ -92,7 +131,7 @@
 
 #----------------------------------------------------------------------
 # ignore files from OS
-**desktop.ini
+*desktop.ini
 .DS_Store
 Thumbs.db
 #----------------------------------------------------------------------
