@@ -11,8 +11,11 @@
 **.err
 
 **/build/
-**/dist/
 **/debug/
+
+# Ignora la carpeta dist pero permite rastrear los archivos .hex dentro de ella
+**/dist/
+!**/dist/**/*.hex
 
 **/nbproject/private/
 
