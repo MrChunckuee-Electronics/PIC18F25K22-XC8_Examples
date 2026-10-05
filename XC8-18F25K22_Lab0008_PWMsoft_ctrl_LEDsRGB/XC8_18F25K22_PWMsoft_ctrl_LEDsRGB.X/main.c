@@ -13,7 +13,7 @@
  *                  timer 0, esto para controlar una tira de LEDs RGB
  *******************************************************************************
  * Rev.         Date            Comment
- *   v0.0.0     08/08/2018      - Creación del ejemplo
+ *   v0.0.0     08/08/2018      - Creación y prueba del ejemplo
  ******************************************************************************/
 
 #include <xc.h>
